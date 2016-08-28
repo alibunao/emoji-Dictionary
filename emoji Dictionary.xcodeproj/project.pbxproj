@@ -12,6 +12,7 @@
 		EAE26E991D726B0200661685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE26E971D726B0200661685 /* Main.storyboard */; };
 		EAE26E9B1D726B0200661685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE26E9A1D726B0200661685 /* Assets.xcassets */; };
 		EAE26E9E1D726B0200661685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE26E9C1D726B0200661685 /* LaunchScreen.storyboard */; };
+		EAE26EA61D7279F500661685 /* definitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE26EA51D7279F500661685 /* definitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EAE26E9A1D726B0200661685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAE26E9D1D726B0200661685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE26E9F1D726B0200661685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE26EA51D7279F500661685 /* definitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = definitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				EAE26E931D726B0200661685 /* AppDelegate.swift */,
 				EAE26E951D726B0200661685 /* ViewController.swift */,
+				EAE26EA51D7279F500661685 /* definitionViewController.swift */,
 				EAE26E971D726B0200661685 /* Main.storyboard */,
 				EAE26E9A1D726B0200661685 /* Assets.xcassets */,
 				EAE26E9C1D726B0200661685 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE26EA61D7279F500661685 /* definitionViewController.swift in Sources */,
 				EAE26E961D726B0200661685 /* ViewController.swift in Sources */,
 				EAE26E941D726B0200661685 /* AppDelegate.swift in Sources */,
 			);
