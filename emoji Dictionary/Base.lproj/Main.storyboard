@@ -70,16 +70,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Categoty: church" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YL-uk-LSK">
+                                <frame key="frameInset" minX="106" minY="400" width="162.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Birthyear  : 2010" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4r-Ot-mug">
+                                <frame key="frameInset" minX="125" minY="441" width="125.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OI5-we-Ihe" firstAttribute="top" secondItem="l6t-F4-5r3" secondAttribute="bottom" constant="20" id="BFN-5l-WFc"/>
                             <constraint firstItem="OI5-we-Ihe" firstAttribute="centerX" secondItem="R3L-tt-rUT" secondAttribute="centerX" id="RfT-b3-2lg"/>
                             <constraint firstItem="NCE-rO-Sqy" firstAttribute="centerX" secondItem="R3L-tt-rUT" secondAttribute="centerX" id="Snk-px-mbs"/>
+                            <constraint firstItem="K4r-Ot-mug" firstAttribute="top" secondItem="8YL-uk-LSK" secondAttribute="bottom" constant="15" id="eNO-c0-9SK"/>
+                            <constraint firstItem="8YL-uk-LSK" firstAttribute="top" secondItem="OI5-we-Ihe" secondAttribute="bottom" constant="20" id="kB3-gw-Nph"/>
+                            <constraint firstItem="K4r-Ot-mug" firstAttribute="centerX" secondItem="R3L-tt-rUT" secondAttribute="centerX" id="mQN-i1-3F5"/>
+                            <constraint firstItem="8YL-uk-LSK" firstAttribute="centerX" secondItem="R3L-tt-rUT" secondAttribute="centerX" id="nGH-dx-zQI"/>
                             <constraint firstItem="NCE-rO-Sqy" firstAttribute="top" secondItem="nc4-DX-n0j" secondAttribute="bottom" constant="40" id="yo0-FO-bpi"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="CategortLbl" destination="8YL-uk-LSK" id="gom-up-Mvl"/>
+                        <outlet property="birthYearLbl" destination="K4r-Ot-mug" id="BpY-zf-9yO"/>
                         <outlet property="definitionLabel" destination="OI5-we-Ihe" id="Gsv-Cf-gc3"/>
                         <outlet property="emojiLabel" destination="l6t-F4-5r3" id="sbr-Jo-on0"/>
                     </connections>

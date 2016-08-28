@@ -13,6 +13,7 @@
 		EAE26E9B1D726B0200661685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE26E9A1D726B0200661685 /* Assets.xcassets */; };
 		EAE26E9E1D726B0200661685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE26E9C1D726B0200661685 /* LaunchScreen.storyboard */; };
 		EAE26EA61D7279F500661685 /* definitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE26EA51D7279F500661685 /* definitionViewController.swift */; };
+		EAE26EA81D72953800661685 /* emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE26EA71D72953800661685 /* emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EAE26E9D1D726B0200661685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE26E9F1D726B0200661685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE26EA51D7279F500661685 /* definitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = definitionViewController.swift; sourceTree = "<group>"; };
+		EAE26EA71D72953800661685 /* emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EAE26E931D726B0200661685 /* AppDelegate.swift */,
 				EAE26E951D726B0200661685 /* ViewController.swift */,
 				EAE26EA51D7279F500661685 /* definitionViewController.swift */,
+				EAE26EA71D72953800661685 /* emoji.swift */,
 				EAE26E971D726B0200661685 /* Main.storyboard */,
 				EAE26E9A1D726B0200661685 /* Assets.xcassets */,
 				EAE26E9C1D726B0200661685 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				EAE26EA61D7279F500661685 /* definitionViewController.swift in Sources */,
 				EAE26E961D726B0200661685 /* ViewController.swift in Sources */,
+				EAE26EA81D72953800661685 /* emoji.swift in Sources */,
 				EAE26E941D726B0200661685 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				EAE26EA41D726B0300661685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
